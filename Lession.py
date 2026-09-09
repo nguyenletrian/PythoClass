@@ -32,4 +32,32 @@ work[1:-1] = 'YTHO'
 
 markdown # NUMBERIC -> Shift + Enter
 
+'Hi '*3 ='Hi Hi Hi'
+'py' in 'python'
+'java' not in 'Python'
+'hello' == 'hello' # So sánh
+'hello' = 'hello' # Gán giá trị
+<, >, <=, >=
+
+ STRING METHODS
+ methods là những hàm hỗ trợ cho object text.upper()
+ còn hàm là truyền vào xài print()
+ 
+ upper() => viết hoa
+ lower() => Viết thường
+ strip() => cắt khoảng cách đầu và cuối
+ replace() => thay thế text.replace('l','_')
+ split(): cắt chuỗi thành mảng text.split()
+ capitalize(): ký tự đầu tiên sẽ thành in hoa text.capitalize()
+ endswith(): text.endswith("orld")
+find(): text.find("world") => index
+index(): text.index("lo") => 5
+isnumeric(): Check phải số không text.isnumeric()
+
+f"Hello,{name}!"
+"Age: {}".format(age)
+"Marks: %d" % marks    # %d %f 
+
+implicit: ngầm định
+
 """
