@@ -149,4 +149,28 @@ Bitwise Operators: Toán tử bit level
 >> = Dịch bit sang phải (right shift)
 5 >> 1 = 5 // 2^1 = 2
 
+
+Precedence Order (High to Low) Thứ tự ưu tiên
+()
+**
+unary: +x -x ~x
+*,/,//,%
++,-
+<<,>>
+&,^,`
+==,!=,>,<
+not, and, or
+=
+
+Các Erros
+Systax Errors: là lỗi sai cú pháp, bị trước khi chạy
+Runtime: Lỗi khi chạy chương trình, ví dụ chia cho 0
+Logical: Lỗi logic trong chương trình, ko báo lỗi
+Error Handling in Python: Quản lý lỗi bằng try except
+
+
+Conditional Statements
+
+
+
 """
