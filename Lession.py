@@ -171,6 +171,7 @@ Error Handling in Python: Quản lý lỗi bằng try except
 
 Conditional Statements
 
+Control + / comment nhanh
 
 
 """
