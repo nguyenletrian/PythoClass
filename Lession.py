@@ -174,4 +174,49 @@ Conditional Statements
 Control + / comment nhanh
 
 
+WHILE LOOP
+count = 1
+while count >=5:
+    print(count)
+    count += 1
+
+print nếu có time số end =" " thì nó sẽ ko xuống dòng
+
+break: Thoát vòng lặp sớm
+continue: Skip item
+pass: không làm gì cả
+else trong vòng lặp: nếu vòng lặp chạy hết mà ko break thì mới xuống else
+
+
+
+LIST
+insert: thêm ở vị trí cụ thể
+pop: xoá ở vị trí cụ thể
+remove: xoá element theo value
+min
+max len
+list(sequence): convert 1 dữ liệu thành list
+
+for index, item in enumerate(my_list):
+
+del [index]
+del [0:]
+
+
+PACKING: x,y,z = (100,200,300)
+UnPacking: 
+
+list.count("a") => số lần xuất hiện của a trong list
+
+my_typle = x,y,z
+
+
+# SET : Tập hợp
+- Không có thứ tự
+- Không truy cập bằng index được
+- chúng có thể thay đổi, nhưng vẫn tử là bất biến
+fruits = {"apple","lemon","banana"}
+my_set = set() #create empty set
+
+-{}
 """
