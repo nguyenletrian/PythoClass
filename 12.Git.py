@@ -23,4 +23,5 @@ git push -u origin main
 # git remote remove origin
 # git remote -v
 # git remote add origin https://github.com/username/new-project.git
-
+# git pull origin main
+# git clone https://github.com/lanh.....
